@@ -12,6 +12,9 @@ calculates and print stem values and the related interpolation values within a f
 
 (for details take a look at OPTIONS in the script)
 
+![alt text](https://github.com/luke-snider/family-stem-weights-calculator/thin.png)
+![alt text](https://github.com/luke-snider/family-stem-weights-calculator/black.png)
+![alt text](https://github.com/luke-snider/family-stem-weights-calculator/output.png)
 
 stemWeightCalculatorDrawbot.py
 ------------------------------------
