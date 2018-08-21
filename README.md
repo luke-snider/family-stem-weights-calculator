@@ -12,15 +12,24 @@ calculates and print stem values and the related interpolation values within a f
 
 (for details take a look at OPTIONS in the script)
 
+stemWeightCalculatorDrawbot.py
+------------------------------------
+A Script for RoboFont and Glyphs App that creates a graph of stem weight calculations with DrawBot.
+
+Requires the DrawBot extension:
+
+GlyphsApp: https://github.com/schriftgestalt/DrawBotGlyphsPlugin
+
+Robofont: https://github.com/typemytype/drawBotRoboFontExtension
+
+
+
+stemWeightCalculator_RF.py + stemWeightCalculator_GlyphsApp.py:
+------------------------------------
 ![alt text](https://github.com/luke-snider/family-stem-weights-calculator/blob/master/thin.png)
 ![alt text](https://github.com/luke-snider/family-stem-weights-calculator/blob/master/black.png)
 ![alt text](https://github.com/luke-snider/family-stem-weights-calculator/blob/master/output.png)
 
 stemWeightCalculatorDrawbot.py
 ------------------------------------
-(for Robofont & GlyphsApp)
-requires the DrawBot extension:
-
-GlyphsApp: https://github.com/schriftgestalt/DrawBotGlyphsPlugin
-
-Robofont: https://github.com/typemytype/drawBotRoboFontExtension
+![alt text](https://github.com/luke-snider/family-stem-weights-calculator/blob/master/graph.png)
