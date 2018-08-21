@@ -14,5 +14,7 @@ stemWeightCalculatorDrawbot.py
 ------------------------------------
 (for Robofont & GlyphsApp)
 requires the DrawBot extension:
+
 GlyphsApp: https://github.com/schriftgestalt/DrawBotGlyphsPlugin
+
 Robofont: https://github.com/typemytype/drawBotRoboFontExtension
