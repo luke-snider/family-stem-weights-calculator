@@ -4,7 +4,7 @@ A python version of Pablo Impallari's font family stem weights calculator for Ro
 
 stemWeightCalculator_RF.py + stemWeightCalculator_GlyphsApp.py:
 ------------------------------------
-calculates and print stem values and the related interpolation values within a font family
+calculates and prints (three different sets of) stem values and the related interpolation values within a font family.
 
 • Stem Values are calculated from the first stem of a reference glyph (e.g. "n") at a certain vertical postion (BeamPos) in two fonts (RoboFont) or two master layers (GlyphsApp).
 
@@ -30,7 +30,7 @@ stemWeightCalculator_RF.py + stemWeightCalculator_GlyphsApp.py:
 ------------------------------------
 ![alt text](https://github.com/luke-snider/family-stem-weights-calculator/blob/master/thin.png)
 ![alt text](https://github.com/luke-snider/family-stem-weights-calculator/blob/master/black.png)
-![alt text](https://github.com/luke-snider/family-stem-weights-calculator/blob/master/output.png)
+![alt text](https://github.com/luke-snider/family-stem-weights-calculator/blob/master/output2.png)
 
 stemWeightCalculatorDrawbot.py
 ------------------------------------
