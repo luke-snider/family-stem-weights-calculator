@@ -100,7 +100,7 @@ def perform(t,b,roundValues,referenceGlyph,BeamPos):
             impValue = round(((x - impallarisValues[0])/(impallarisValues[-1]-impallarisValues[0]))*1000,2)
             impValue = '%#05.2f' % impValue
             x = '%#05.2f' % x
-        print(str(idx)+"\t\t\t\t"+str(x)+"\t\t\t\t"+str(impValue))
+        print(str(idx+1)+"\t\t\t\t"+str(x)+"\t\t\t\t"+str(impValue))
     print() 
     print("Schneider:"+"\t\t"+"StemWeight:"+"\t\t"+"InterpolValue:")
     print("-------------------------------------------------")
@@ -111,7 +111,7 @@ def perform(t,b,roundValues,referenceGlyph,BeamPos):
             schValue = round(((x - schneidersValues[0])/(schneidersValues[-1]-schneidersValues[0]))*1000,2)
             schValue = '%#05.2f' % schValue
             x = '%#05.2f' % x
-        print(str(idx)+"\t\t\t\t"+str(x)+"\t\t\t\t"+str(schValue))
+        print(str(idx+1)+"\t\t\t\t"+str(x)+"\t\t\t\t"+str(schValue))
     print()
     print("Luc(as):"+"\t\t\t"+"StemWeight:"+"\t\t"+"InterpolValue:")
     print("-------------------------------------------------")
@@ -122,6 +122,6 @@ def perform(t,b,roundValues,referenceGlyph,BeamPos):
             lucValue = round(((x - lucsValues[0])/(lucsValues[-1]-lucsValues[0]))*1000,2)  
             lucValue = '%#05.2f' % lucValue
             x = '%#05.2f' % x
-        print(str(idx)+"\t\t\t\t"+str(x)+"\t\t\t\t"+str(lucValue))
+        print(str(idx+1)+"\t\t\t\t"+str(x)+"\t\t\t\t"+str(lucValue))
 
 perform(t,b,roundValues,referenceGlyph,BeamPos)
