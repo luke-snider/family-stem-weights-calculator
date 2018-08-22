@@ -32,4 +32,4 @@ stemWeightCalculator_RF.py + stemWeightCalculator_GlyphsApp.py:
 
 stemWeightCalculatorDrawbot.py
 ------------------------------------
-![alt text](https://github.com/luke-snider/family-stem-weights-calculator/blob/master/graph.png)
+![alt text](https://github.com/luke-snider/family-stem-weights-calculator/blob/master/graph1.png)
