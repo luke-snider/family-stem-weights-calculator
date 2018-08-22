@@ -16,6 +16,8 @@ stemWeightCalculatorDrawbot.py
 ------------------------------------
 A Script for RoboFont and Glyphs App that creates a graph of stem weight calculations with DrawBot.
 
+It draws 3 curves (Luc de Groot's interpolation theory, Pablo Impallari's proposal and a curve which lies in between both: the Schneider Interpolation curve)
+
 Requires the DrawBot extension:
 
 GlyphsApp: https://github.com/schriftgestalt/DrawBotGlyphsPlugin
@@ -32,4 +34,4 @@ stemWeightCalculator_RF.py + stemWeightCalculator_GlyphsApp.py:
 
 stemWeightCalculatorDrawbot.py
 ------------------------------------
-![alt text](https://github.com/luke-snider/family-stem-weights-calculator/blob/master/graph1.png)
+![alt text](https://github.com/luke-snider/family-stem-weights-calculator/blob/master/graph2.png)
