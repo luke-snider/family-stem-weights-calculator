@@ -10,7 +10,7 @@ from mojo.tools import IntersectGlyphWithLine
 s = 9 # Interpolation steps
 referenceGlyph = "n" # for stem measurement (it takes the 1st stem for the calculation)
 BeamPos = 200 # vertical position of stem measurement of reference glyph
-roundValues = False # or False if values should not be rounded
+roundValues = True # or False if values should not be rounded
 measureStems = True # or False - if calculation should use the following two values (t + b)
 t = 10 # thin-value (only used if measureStems = False)
 b = 100 # black-value (only used if measureStems = False)
